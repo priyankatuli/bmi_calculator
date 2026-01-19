@@ -22,11 +22,11 @@
 ```
 ### Install dependencies
 ```
-   flutter pub get
+ flutter pub get
 ```
 ### Run the app
 ```
-   flutter run
+ flutter run
 ```
 ### Build Apk
 ```
