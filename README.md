@@ -15,7 +15,7 @@
 - Dart
 - GetX for State Management
 
-⚙️ Installation & Setup 
+## ⚙️ Installation & Setup 
 ### Clone the repository
 ```
  git clone https://github.com/priyankatuli/bmi_calculator.git
