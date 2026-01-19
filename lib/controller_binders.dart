@@ -3,7 +3,6 @@ import 'package:bmi_calculator/controllers/gender_controller.dart';
 import 'package:bmi_calculator/controllers/height_controller.dart';
 import 'package:bmi_calculator/controllers/theme_controller.dart';
 import 'package:bmi_calculator/controllers/weight_controller.dart';
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class ControllerBinders extends Bindings{

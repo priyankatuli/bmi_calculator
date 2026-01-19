@@ -1,16 +1,53 @@
-# bmi_calculator
+# BMI Calculator App
+## A Flutter-based BMI Calculator application that helps users calculate their Body Mass Index (BMI) and understand their health category easily.
 
-A new Flutter project.
+## ✨ Features
+- Calculate BMI using height & weight
+- Supports metric units (cm & kg)
+- Instant BMI result
+- Health category display
+  (Underweight, Normal, Overweight, Obese)
+- light & Dark mode
+- Clean & simple UI
 
-## Getting Started
+## 🛠️ Tech Stack
+- Flutter
+- Dart
+- GetX for State Management
 
-This project is a starting point for a Flutter application.
+⚙️ Installation & Setup 
+### Clone the repository
+```
+ git clone https://github.com/priyankatuli/bmi_calculator.git
+```
+### Install dependencies
+```
+   flutter pub get
+```
+### Run the app
+```
+   flutter run
+```
+### Build Apk
+```
+  flutter build apk --release
+```
+## BMI Categories
+- Underweight: BMI < 18.5
+- Normal weight: 18.5 – 24.9
+- Overweight: 25 – 29.9
+- Obese: BMI ≥ 30
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🌞 Light Mode
+| Splash Screen | Home Screen | BMI Screen | BMI Details Screen                             |
+|---------------|-------------|------------|------------------------------------------------|
+| ![Splash](screenshots/splash_screen_light.jpeg) | ![Home](screenshots/home_screen_light.jpeg) | ![BMI](screenshots/bmi_screen_light.jpeg) | ![Details](screenshots/bmi_details_light.jpeg) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+### 🌙 Dark Mode
+| Splash Screen | Home Screen | BMI Screen | BMI Details Screen                            |
+|---------------|-------------|------------|-----------------------------------------------|
+| ![Splash](screenshots/splash_screen.jpeg) | ![Home](screenshots/home_screen_dark.jpeg) | ![BMI](screenshots/bmi_screen_dark.jpeg) | ![Details](screenshots/bmi_details_dark.jpeg) |
