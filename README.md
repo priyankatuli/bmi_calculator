@@ -30,7 +30,7 @@
 ```
 ### Build Apk
 ```
-  flutter build apk --release
+ flutter build apk --release
 ```
 ## BMI Categories
 - Underweight: BMI < 18.5
