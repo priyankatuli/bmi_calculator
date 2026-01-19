@@ -4,23 +4,20 @@ import 'package:flutter/material.dart';
 ThemeData lightTheme = ThemeData(
   useMaterial3: true,
   colorScheme:  ColorScheme.light(
-        background: lightBgColor,
+        surface: lightBgColor,
          primary: lightPrimaryColor,
-         onBackground:  lightFontColor,
+         onSurface:  lightFontColor,
          primaryContainer: lightDivColor,
          onPrimaryContainer: lightFontColor,
-         onSecondaryContainer: labelColor
-
-  )
-
+         onSecondaryContainer: labelColor)
 );
 
 ThemeData darkTheme = ThemeData(
       useMaterial3: true,
       colorScheme: ColorScheme.dark(
-      background: darkBgColor,
+      surface: darkBgColor,
       primary: darkPrimaryColor,
-      onBackground:  darkFontColor,
+      onSurface:  darkFontColor,
       primaryContainer: darkDivColor,
       onPrimaryContainer:darkFontColor,
       onSecondaryContainer: darkLabelColor

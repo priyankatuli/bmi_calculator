@@ -14,7 +14,7 @@ class ThemeChangeSection extends StatelessWidget {
       //padding: const EdgeInsets.all(8),
       //height: 50,
       decoration: BoxDecoration(
-          color: Theme.of(context).colorScheme.background,
+          color: Theme.of(context).colorScheme.surface,
           borderRadius: BorderRadius.circular(10)
       ),
       child:GetBuilder<ThemeController>(

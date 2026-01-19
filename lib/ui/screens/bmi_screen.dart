@@ -36,9 +36,7 @@ class BmiScreen extends StatelessWidget{
          letterSpacing: 0.5
        ),
        ),
-         backgroundColor:  Colors.blueGrey.withOpacity(0.5)
-
-       ),
+         backgroundColor:  Colors.blueGrey.withOpacity(0.5)),
 
        body: SingleChildScrollView(
            child: Padding(
